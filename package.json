@@ -1,0 +1,23 @@
+{
+  "name": "game-module",
+  "version": "1.0.0",
+  "description": "browser game",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/Tigerminde/modules.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Tigerminde",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
